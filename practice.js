@@ -37,7 +37,7 @@ let devMountainGoal = null;
 
 //Code here
 function greeting(name){
-  return `Hello ${name}`;
+  return `Hello, ${name}`;
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -46,7 +46,7 @@ function greeting(name){
 
 //Code Here
 let newGreeting = function(name){
-  return `Hello ${name}`;
+  return `Hello, ${name}`;
 };
 //////////////////PROBLEM 8////////////////////
 
@@ -66,8 +66,8 @@ let groceries = ['apples', 'milk', 'eggs', 'bread'];
 let dog = {
   name: "daisy",
   color: "white",
-  age: "14",
-  goodboy: true
+  age: 14,
+  goodBoy: true
 }
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
@@ -155,13 +155,13 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["sailorDuck", "rubberDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["sailorDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
